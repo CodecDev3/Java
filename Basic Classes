@@ -5,9 +5,12 @@ public class dev {
         //Scanner sc = new Scanner(System.in);
 
         p1.setcolor();
-        
-    }
-
+        /*         // can also access size & color
+        p1.size=15;
+        p1.color="Orange";
+        System.out.println(p1.size +" "+ p1.color);         // 15 Orange
+        */
+        }
 }
 
 class Pen{
@@ -36,8 +39,4 @@ class Pen{
     void setsize(int newsize){
         size = newsize;
     }
-}
-
-class Student{
-    int p,c,m,avg;
 }
