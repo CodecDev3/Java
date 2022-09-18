@@ -22,6 +22,12 @@ class Pen{
 
         nc1 = sc.nextLine();
         nc2 = sc.next();
+        
+        /*
+        nextLine()      : all the words are in a single string
+        next()          : will split the line up into individual words, returning individual text Strings one at a time.
+        */
+        
         color = nc1;
         System.out.println(nc2);
         System.out.println(color);
