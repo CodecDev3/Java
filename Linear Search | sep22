@@ -5,7 +5,7 @@ public class dev{
         Scanner sc = new Scanner(System.in);
         Search s1 = new Search();
 
-        int al;
+        int al;             // al = array length
         System.out.println("Enter Length of an Array : ");
         al = sc.nextInt();
 
