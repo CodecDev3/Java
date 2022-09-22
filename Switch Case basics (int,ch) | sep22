@@ -28,7 +28,9 @@ class HelloWorld {
             default : System.out.println("default Case executed");
         }
         
-        float f = 12.2f;
+        
+        // can't use float or double in Switch Case
+        /*float f = 12.2f;
         switch(f){
             case 12.6f : System.out.println("Case 1 executed");
                 break;
@@ -37,7 +39,7 @@ class HelloWorld {
             case 127.2f : System.out.println("Case 3 executed");
                 break;
             default : System.out.println("default Case executed");
-        }
+        }*/
         
     }
 }
