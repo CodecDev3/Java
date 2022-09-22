@@ -1,0 +1,43 @@
+// Coded on 22/09/22
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int num = 2;
+        switch(num){
+            case 1 : System.out.println("Case 1 executed");
+                break;
+            case 2 : System.out.println("Case 2 executed");
+                break;
+            case 3 : System.out.println("Case 3 executed");
+                break;
+            default : System.out.println("default Case executed");
+        }
+        
+        int ch = 'a';
+        switch(ch){
+            case 'r' : System.out.println("Case r executed");
+                break;
+            case 'e' : System.out.println("Case e executed");
+                break;
+            case 'a' : System.out.println("Case a executed");
+                break;
+            default : System.out.println("default Case executed");
+        }
+        
+        float f = 12.2f;
+        switch(f){
+            case 12.6f : System.out.println("Case 1 executed");
+                break;
+            case 12.2f : System.out.println("Case 2 executed");
+                break;
+            case 127.2f : System.out.println("Case 3 executed");
+                break;
+            default : System.out.println("default Case executed");
+        }
+        
+    }
+}
