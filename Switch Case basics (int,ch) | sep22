@@ -1,10 +1,10 @@
 // Coded on 22/09/22
 
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
+import java.util.*;
 
-class HelloWorld {
+public class Main{
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
         int num = 2;
         switch(num){
@@ -17,6 +17,7 @@ class HelloWorld {
             default : System.out.println("default Case executed");
         }
         
+        
         int ch = 'a';
         switch(ch){
             case 'r' : System.out.println("Case r executed");
@@ -26,6 +27,30 @@ class HelloWorld {
             case 'a' : System.out.println("Case a executed");
                 break;
             default : System.out.println("default Case executed");
+        }
+        
+        
+        // Calculator
+        System.out.println("Enter a : ");
+        int a = sc.nextInt();
+        System.out.println("Enter b : ");
+        int b = sc.nextInt();
+        
+        System.out.println("Enter Operator : ");
+        char optr = sc.next().charAt(0);
+        
+        switch(optr){
+            case '+' : System.out.println(a+b);
+                break;
+            case '-' : System.out.println(a-b);
+                break;
+            case '*' : System.out.println(a*b);
+                break;
+            case '/' : System.out.println(a/b);
+                break;
+            case '%' : System.out.println(a%b);
+                break;
+            default : System.out.println("Plz Enter valid Operator");
         }
         
         
