@@ -1,0 +1,32 @@
+// Coded on 25/09/22
+
+/*
+The length() method returns the number of characters present in the string. 1. The length variable is applicable to an array but not for string objects whereas the length() method is applicable for string objects but not for arrays.
+*/
+
+import java.util.*;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        
+        String name = sc.nextLine();
+        int l = name.length();
+        int count = 0;
+        
+        char vowels[] = {'a','e','i','o','u','A','E','I','O','U'};
+        int vl = vowels.length;
+        
+        for(int i=0;i<l;i++){
+            char c = name.charAt(i);
+
+            for(int j=0;j<vl;j++){
+                if(c==vowels[j]){
+                    count++;
+                }
+            }
+            
+        }
+        System.out.print(count);
+    }
+}
