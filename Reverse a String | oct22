@@ -12,7 +12,7 @@ public class Main{
         
         for(int i=0;i<s.length();i++){
             c = s.charAt(i);
-            rs = c+rs;
+            rs = c+rs;                      // adds each character in front of the existing string
         }
         
         System.out.println(rs);
