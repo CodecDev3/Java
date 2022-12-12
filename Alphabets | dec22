@@ -1,0 +1,63 @@
+// Coded on 12/12/22
+
+import java.util.*;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        //char aa = 100;
+        //System.out.println(aa);
+        
+        char aa;
+        int n = sc.nextInt();
+        int c = 65;
+        
+        for(int i=0;i<n;i++){
+           // c=65;
+            for(int x=0;x<=i;x++){
+                aa = (char) c;
+                System.out.print(aa);
+                c++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+/*
+4
+A
+BC
+DEF
+GHIJ
+*/
+
+-------------------------------------------------------------------------------------
+
+import java.util.*;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        //char aa = 100;
+        //System.out.println(aa);
+        
+        char aa;
+        int n = sc.nextInt();
+        int c = 65;
+        
+        for(int i=0;i<n;i++){
+            c=65;
+            for(int x=0;x<=i;x++){
+                aa = (char) c;
+                System.out.print(aa);
+                c++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+/*
+
+*/
